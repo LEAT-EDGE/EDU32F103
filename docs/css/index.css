@@ -8,18 +8,15 @@ html, body {
 
 .card {
   width: 100%;
-  margin-left: 1em;
-  margin-bottom: 1em;
 }
 
-.card > img {
+.card-body > div > img {
   object-fit: contain;
-  height: 15em;
+  height: 20em;
 }
 
 .card-text {
   text-align: justify;
-  height: 7em;
 }
 
 footer {

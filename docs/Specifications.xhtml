@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="/css/bootstrap.min.css"?>
-<?xml-stylesheet type="text/css" href="/css/index.css"?>
+<?xml-stylesheet type="text/css" href="css/bootstrap.min.css"?>
+<?xml-stylesheet type="text/css" href="css/bootstrap-icons.min.css"?>
+<?xml-stylesheet type="text/css" href="css/index.css"?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
@@ -24,7 +25,8 @@
     <nav class="navbar justify-content-center mb-4">
       <div class="btn-group" role="group">
         <a href="index.xhtml" class="btn btn-outline-dark">Overview</a>
-        <a href="Specifications.xhtml" class="btn btn-outline-dark">Specifications</a>
+        <a href="Pictures.xhtml" class="btn btn-outline-dark">Pictures</a>
+        <a href="Specifications.xhtml" class="btn btn-dark">Specifications</a>
         <a href="Downloads.xhtml" class="btn btn-outline-dark">Downloads</a>
       </div>
     </nav>
@@ -37,7 +39,7 @@
 				<div class="card-body">
 
         <h3>Microcontroller</h3>
-        <p>STM32F103VGT6</p>
+        <p>STMicroelectronics STM32F103VGT6</p>
         <ul>
           <li><b>Core:</b> ARM Cortex-M3</li>
           <li><b>Frequency:</b> 72 MHz (max.)</li>
@@ -47,7 +49,7 @@
 
         <h3>External connectors</h3>
         <ul>
-          <li>USB</li>
+          <li>USB Type-B (power, virtual COM port, JTAG programming and debugging, microcontroller as device)</li>
           <li>12-pin GPIO and power header</li>
         </ul>
 
@@ -57,10 +59,26 @@
           <li>8× slide switches</li>
           <li>16× LEDs</li>
           <li>4× 7-segment displays with decimal point</li>
-          <li>Photoresistor</li>
-          <li>LSM6DSL digital intertial measurement unit with 3-axis accelerometer and 3-axis gyroscope</li>
+          <li>1× Photoresistor</li>
+          <li>1× LSM6DSL digital intertial measurement unit with 3-axis accelerometer and 3-axis gyroscope</li>
         </ul>
 
+		<h3>Electrical specifications</h3>
+		<ul>
+			<li><b>Input voltage:</b> 5V DC (USB connector)</li>
+			<li><b>Input current</b>: 250 mA (max.)</li>
+		</ul>
+
+		<h3>Mechanical specifications</h3>
+		<ul>
+			<li><b>Size:</b> 116mm × 76mm × 20mm</li>
+		</ul>
+
+		<h3>Supported firmware development tools</h3>
+		<ul>
+			<li><b>RTOS:</b> <a href="https://www.zephyrproject.org/">Zephyr RTOS</a></li>
+			<li><b>Bare-metal (with HAL):</b> STMicroelectronics STM32CubeMX</li>
+		</ul>
 
 		</div>
 		</div>

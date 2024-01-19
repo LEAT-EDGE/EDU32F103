@@ -2,16 +2,18 @@
 <?xml-stylesheet type="text/css" href="css/bootstrap.min.css"?>
 <?xml-stylesheet type="text/css" href="css/bootstrap-icons.min.css"?>
 <?xml-stylesheet type="text/css" href="css/index.css"?>
+<?xml-stylesheet type="text/css" href="css/Pictures.css"?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>EDU32F103 — Downloads</title>
+		<title>EDU32F103 — Overview</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" href="css/bootstrap-icons.min.css" />
 		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/Pictures.css" />
 		<link rel="icon" href="favicon.svg" type="image/svg+xml" />
 	</head>
 	<body class="d-flex flex-column">
@@ -25,27 +27,46 @@
     <nav class="navbar justify-content-center mb-4">
       <div class="btn-group" role="group">
         <a href="index.xhtml" class="btn btn-outline-dark">Overview</a>
-        <a href="Pictures.xhtml" class="btn btn-outline-dark">Pictures</a>
-        <a href="Specifications.xhtml" class="btn btn-outline-dark">Specifications</a>
-        <a href="Downloads.xhtml" class="btn btn-dark">Downloads</a>
+        <a href="Pictures.xhtml" class="btn btn-dark">Pictures</a>
+		<a href="Specifications.xhtml" class="btn btn-outline-dark">Specifications</a>
+        <a href="Downloads.xhtml" class="btn btn-outline-dark">Downloads</a>
       </div>
     </nav>
 
 		<!-- Main container -->
-		<div id="content" class="container d-flex flex-grow-1 flex-wrap align-items-start justify-content-center">
+		<div id="content" class="container d-flex flex-grow-1 flex-wrap align-items-start align-content-start justify-content-center gap-3">
 
-			<!-- Second card: EDU32F103 -->
 			<div class="card">
-        <table class="table mb-0">
-          <thead>
-          <tr><th scope="col">Title</th><th scope="col">Version</th><th scope="col">Link</th></tr>
-          </thead>
-          <tbody class="table-group-divider">
-            <tr><th scope="row">User Manual</th><td>v0.1</td><td><a href="downloads/EDU32F103_v0.4_User_Manual_v0.1.pdf"><i class="bi-download"></i></a></td></tr>
-          <tr><th scope="row">Windows Driver</th><td>v0.4-2</td><td><a href="downloads/InstallDriver_EDU32F103_v0.4-2.exe.zip"><i class="bi-download"></i></a></td></tr>
-			  <tr><th scope="row">STM32F103VG datasheet</th><td></td><td><a href="https://www.st.com/resource/en/datasheet/stm32f103vg.pdf"><i class="bi-download"></i></a></td></tr>
-          </tbody>
-        </table>
+				<div class="card-body">
+					<!-- Picture -->
+					<img src="img/edu32f103_v0.4.jpg" class="card-img-top mb-3" />
+					<!-- Title -->
+					<h5 class="card-title text-center">Assembled board</h5>
+					<!-- Card link -->
+					<a href="img/edu32f103_v0.4.jpg" class="stretched-link"></a>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-body">
+					<!-- Picture -->
+					<img src="img/edu32f103.png" class="card-img-top mb-3" />
+					<!-- Title -->
+					<h5 class="card-title text-center">3D render</h5>
+					<!-- Card link -->
+					<a href="img/edu32f103.png" class="stretched-link"></a>
+				</div>
+			</div>
+
+			<div class="card" style="width: 51em;">
+				<div class="card-body">
+					<!-- Picture -->
+					<img src="img/edu32f103_v0.4_layout.svg" class="card-img-top mb-3" />
+					<!-- Title -->
+					<h5 class="card-title text-center">Peripherals layout</h5>
+					<!-- Card link -->
+					<a href="img/edu32f103_v0.4_layout.svg" class="stretched-link"></a>
+				</div>
 			</div>
 
 		</div>

@@ -1,0 +1,12 @@
+.card {
+  width: 25em;
+}
+
+.card:hover {
+  border-color: blue;
+}
+
+.card > img {
+  object-fit: contain;
+  height: 15em;
+}
